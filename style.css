@@ -3,33 +3,38 @@ selectors).
 */
 body {
   background-color: rgb(6, 6, 6);
+  margin: 1%;
 }
 
 /* Keep the juice in the hoose.
 */
-img {
-  width: fit-content;
-  height: fit-content;
+.img {
+  width: 100%;
+  height: 200px;
   object-fit: contain;
 }
 
 /* Applies to Philip Ward only.
 */
-brand {
+.brand {
   /* font-family: "Courier New", Courier, monospace; */
   font-family: 'Dot Matrix', sans-serif;               
-  font-size: 60px;
-  color: rgb(128, 0, 248);
+  font-size: 80px;
+  color: rgba(115, 14, 210, 0.966);
+  position: absolute;
+  top: 17px;
+  left: 50px;
 }
 
-footer {
+.footer {
   font-family: "Courier New", Courier, monospace;
   font-size: 14px;
-  color: rgb(236, 236, 236);
+  color: rgba(236, 236, 236, 0.595);
 }
 
-contact {
+.contact {
   font-family: "Courier New", Courier, monospace;
-  font-size: 10px;
-  color: rgb(160, 160, 160);
+  font-size: 14px;
+  color: rgba(236, 236, 236, 0.912);
+  text-align: center;
 }
