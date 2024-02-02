@@ -4,11 +4,10 @@ selectors).
 body {
   margin: 0px;
   font-family: arial, sans-serif;
-  font-size: 14px;
 }
  
 container {
-  background-color: #ffffff;
+  background-color: #060606;
 }
 
 /* Applies to Philip Ward only.
@@ -16,19 +15,16 @@ container {
 Brand {
   font-size: 35px;
   font-weight: normal;
+  color: blueviolet;
 }
 
-Expression {
-  font-size: 16px;
-  font-weight: normal;
-}
-
-  SocialMedia {
+SocialMedia {
   font-size: 16px;
   font-weight: normal;
   }
 
-  Footer {
-  font-size: 16px;
+Footer {
+  font-size: 10px;
   font-weight: normal;
+  font-style: italic;
   }
