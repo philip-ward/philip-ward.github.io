@@ -1,0 +1,20 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors).
+body {
+  margin: 0px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+ 
+/* Applies to container
+container {
+  background-color: #ffffff;
+}
+*/
+
+/* Applies to all <h1>...</h1> elements.
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+}
+*/
