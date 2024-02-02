@@ -5,16 +5,31 @@ body {
   background-color: rgb(6, 6, 6);
 }
 
+/* Keep the juice in the hoose.
+*/
+img {
+  width: fit-content;
+  height: fit-content;
+  object-fit: contain;
+}
+
 /* Applies to Philip Ward only.
 */
 brand {
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: 'Dot Matrix', sans-serif;               
+  font-size: 60px;
+  color: rgb(128, 0, 248);
+}
+
+footer {
   font-family: "Courier New", Courier, monospace;
-  font-size: 40px;
-  color: blueviolet;
+  font-size: 14px;
+  color: rgb(236, 236, 236);
 }
 
 contact {
   font-family: "Courier New", Courier, monospace;
   font-size: 10px;
-  color: rgb(96, 96, 96);
+  color: rgb(160, 160, 160);
 }
