@@ -20,17 +20,21 @@ body {
   /* font-family: "Courier New", Courier, monospace; */
   font-family: 'Dot Matrix', sans-serif;               
   font-size: 80px;
-  color: rgba(115, 14, 210, 0.966);
+  color: rgba(69, 6, 128, 0.966);
   position: absolute;
   top: 17px;
   left: 50px;
 }
 
 .footer {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 14px;
-  color: rgba(236, 236, 236, 0.595);
-  text-align: left;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-family: "Courier New", Courier, monospace;
+   font-size: 14px;
+   color: rgba(236, 236, 236, 0.595);
+   text-align: center;
 }
 
 .contact {
@@ -38,11 +42,4 @@ body {
   font-size: 14px;
   color: rgba(236, 236, 236, 0.912);
   text-align: center;
-}
-
-.social {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 14px;
-  color: rgba(236, 236, 236, 0.319);
-  text-align: right;
 }
